@@ -1,6 +1,6 @@
 # gqlgen-lambda
 
-This is an example project demonstrating that a performant, zero-cost Graphql layer is possible with AWS Lambda functions. 
+This is a prototype project demonstrating that a performant, zero-cost Graphql layer is possible with AWS Lambda functions. 
 
 The lambda function is uses Golang and [GqlGen](https://github.com/99designs/gqlgen). It uses [Gin](https://github.com/gin-gonic/gin) to serve the requests, and [aws-lambda-go-api-proxy](https://github.com/awslabs/aws-lambda-go-api-proxy) to proxy the request from API Gateway to Gin. The Graphql function is written in such a way that you can easily convert the code to a microservice with little to no effort.
 
